@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
   },
   "dependencies": {
     "@tanstack/react-router": "^1.99.1",
@@ -13,10 +13,9 @@
     "clsx": "^2.1.1",
     "lucide-react": "^0.475.0",
     "tailwind-merge": "^3.0.1",
-     "vinxi": "^0.5.11"
+    "vinxi": "^0.5.11"
   },
   "devDependencies": {
-    "@tanstack/start-vite": "^1.99.3",
     "@types/node": "^22.13.4",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.5.2",
