@@ -5,7 +5,8 @@
 export const site = {
   name: 'AUREL',
   fullName: 'Aurel Atelier',
-  url: 'https://luxury-product-showcase.netlify.app',
+  // تم التعديل هنا لحذف رابط netlify وتوجيهه إلى مسار مشروعك على GitHub Pages
+  url: 'https://github.io',
   tagline: 'Objects of quiet precision.',
   description:
     'Aurel Atelier makes rings, bespoke watches and hand-stitched leather watch straps to order. Considered design, honest materials, made to be worn for a lifetime.',
