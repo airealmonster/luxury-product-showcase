@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://luxury-product-showcase.netlify.app/sitemap.xml
