@@ -1,11 +1,27 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tsconfigPaths from 'vite-tsconfig-paths'
-
-export default defineConfig({
-  base: '/luxury-product-showcase/',
-  plugins: [
-    tsconfigPaths(),
-    react()
-  ]
-})
+{
+  "name": "luxury-product-showcase",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.99.1",
+    "@tanstack/start": "^1.99.3",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.475.0",
+    "tailwind-merge": "^3.0.1",
+    "vinxi": "^0.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^4.0.6",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
