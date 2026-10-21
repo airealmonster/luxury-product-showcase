@@ -16,6 +16,7 @@
      "vinxi": "^0.5.11"
   },
   "devDependencies": {
+    "@tanstack/start-vite": "^1.99.3",
     "@types/node": "^22.13.4",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.5.2",
