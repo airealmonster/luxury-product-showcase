@@ -1,13 +1,10 @@
 import { defineConfig } from 'vite'
+import { tanstackStartVite } from '@tanstack/start-vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
 
 export default defineConfig({
-  base: '/luxury-product-showcase/',
   plugins: [
-    tsconfigPaths()
-  ],
-  build: {
-    outDir: 'dist',
-    emptyOutDir: true
-  }
+    tsconfigPaths(),
+    tanstackStartVite()
+  ]
 })
