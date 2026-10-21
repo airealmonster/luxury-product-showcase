@@ -6,5 +6,9 @@ export default defineConfig({
   plugins: [
     tsconfigPaths(),
     tanstackStartVite()
-  ]
+  ],
+  // تم ضبط هذا السطر الإضافي لضمان توافق محرك البناء مع سيرفر Vercel السحابي
+  server: {
+    preset: 'vercel'
+  }
 })
