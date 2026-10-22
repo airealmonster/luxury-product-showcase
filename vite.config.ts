@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite'
-import { tanstackStart } from '@tanstack/start'
+import { tanstackStartVite } from '@tanstack/start/vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
 
 export default defineConfig({
   plugins: [
     tsconfigPaths(),
-    tanstackStart()
+    tanstackStartVite()
   ],
   server: {
     preset: 'vercel'
